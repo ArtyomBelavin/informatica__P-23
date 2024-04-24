@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/katalog.css">
+    <link rel="stylesheet" href="style/hover.css">
+    <title>Покупка</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html"><img src="images/logo.svg" class="logo" alt="Логотип"></a>
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Доставка</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="buy.html">Оплата</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Проекты</a>
+                        </li>
+                    </ul>
+                    <div class="basket">
+                        <ul class="basket__menu">
+                            <li class="basket__item">
+                                <a class="basket__link" href="#"><img src="images/star.svg" alt="check"></a>
+                            </li>
+                            <li class="basket__item">
+                                <a class="basket__link" href="#"><img src="images/basket.svg" alt="check"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="number">
+                        <p class="header__phone">
+                            8 (843) 203-93-43
+                        </p>
+                        <a class="phone__link" href="#">заказать обратный звонок</a>
+                    </div>
+                    <div class="toggle_btn">
+                        <i class="fa-solid fa-bars" id="toggle_btn"></i>
+                    </div>
+                    <div class="dropdown_menu">
+                        <li class="menu__item">
+                            <input class="home__search" name="search" onkeyup="search_animal()" type="text" placeholder="Введите название товара"><a href="#"><img src="images/Search.svg" alt="check"></a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Доставка</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Оплата</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Проекты</a>
+                        </li>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main1">
+        <section class="home">
+            <div class="container2">
+                <div class="home__inner">
+                    <div class="home__menu">
+                        <ul class="home__list">
+                            <li class="home__item">
+                                <a class="home__link" href="#">
+                                    <div class="catalog">
+                                        <div class="dropdown">
+                                            <div class="kata">
+                                                <button class="dropbtn" onclick="myFunction()"><img src="images/burger.svg" alt="check"></button>
+                                                <p><a href="#">Каталог</a></p>
+                                            </div>
+                                            <div id="myDropdown1" class="dropdown-content">
+                                                <div class="elem">
+                                                    <a href="#">Стеновые материалы</a>
+                                                    <img src="images/Vector.jpg" alt="vs">
+                                                </div>
+                                                <div class="elem">
+                                                    <a href="#">Фасадные материалы</a>
+                                                    <img src="images/Vector.jpg" alt="vs">
+                                                </div>
+                                                <div class="elem">
+                                                    <a href="katalog.html">Строительные блоки</a>
+                                                    <img src="images/Vector.jpg" alt="vs">
+                                                </div>
+                                                <div class="elem">
+                                                    <a href="#">Отделочные материалы</a>
+                                                    <img src="images/Vector.jpg" alt="vs">
+                                                </div>
+                                                <div class="elem">
+                                                    <a href="#">Сухие смеси</a>
+                                                    <img src="images/Vector.jpg" alt="vs">
+                                                </div>
+                                                <div class="elem">
+                                                    <a href="#">Благоустройство</a>
+                                                    <img src="images/Vector.jpg" alt="vs">
+                                                </div>
+                                                <div class="elem">
+                                                    <a href="#">Лако-красочные материалы</a>
+                                                    <img src="images/Vector.jpg" alt="vs">
+                                                </div>
+                                                <div class="elem">
+                                                    <a href="#">Прочие услуги</a>
+                                                    <img src="images/Vector.jpg" alt="vs">
+                                                </div>
+                                                <div class="elem">
+                                                    <p><a href="#">Распродажа товаров</a></p>
+                                                    <img src="images/Vector.jpg" alt="vs">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="home__item ubr">
+                                <a class="home__link" href="#"><span>Акции</span></a>
+                            </li>
+                            <li class="home__item ubri">
+                                <div class="home__btn__inner">
+                                    <input class="home__search" id="searchbar" name="search" onkeyup="search_animal()" type="text" placeholder="Введите название товара">
+                                    <a href="#"><img src="images/Search.svg" class="search" alt="check"></a>
+                                </div>
+                            </li>
+                            <li class="home__item ubr">
+                                <a class="home__link" href="#">О компании</a>
+                            </li>
+                            <li class="home__item ubr">
+                                <a class="home__link" href="#">Контакты</a>
+                            </li>
+                            <li class="home__item ubre">
+                                <a class="home__link" href="#"><img src="images/search_black.jpg" alt="search"></a>
+                            </li>
+                            <li class="home__item ubri">
+                                <div class="footer__btn">
+                                    <div class="footer__btn__inner">
+                                        <button class="footer__btn__text btn"><a href="tovar.html">Оптовый заказ</a></button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="link">
+                <div class="text">
+                    <p>Главная</p>
+                    <p>/</p>
+                    <p>Каталог</p>
+                    <p>/</p>
+                    <p>Способ оплаты</p>
+                </div>
+                <div class="zagolovok">
+                    <h1>Способы оплаты товаров и услуг</h1>
+                </div>
+                <div class="info-container">
+                    <p><a href="#" class="active_info">Наличный расчет</a></p>
+                    <p><a href="#">Банковской картой</a></p>
+                    <p><a href="#">Безналичный расчет</a></p>
+                    <p><a href="#">Online оплата</a></p>
+                </div>
+                <div class="sortirofka1">
+                    <select>
+                        <option value="0"><p><a href="#">Наличный расчет</a></p></option>
+                        <option value="1"><p><a href="#">Банковской картой</a></p></option>
+                        <option value="2"><p><a href="#">Безналичный расчет</a></p></option>
+                        <option value="3"><p><a href="#">Online оплата</a></p></option>
+                    </select>     
+                </div>
+                <div class="price_info">
+                    <div class="inf1">
+                        <p>Стоимость доставки зависит от веса заказа, поэтому точную стоимость доставки просьба уточнять у менеджера магазина по тел. +7(843) 203-93-43.</p>
+                    </div>
+                    <div class="inf1">
+                        <p>Сроки доставки: <span>в день заказать</span> и до 3-х рабочих дней для отдельных позиций.</p>
+                    </div>
+                    <div class="inf1">
+                        <p><b>Стоимость доставки в зависимости от веса заказа:</b></p>
+                    </div>
+                    <div class="inf1">
+                        <p>до 1,5 тонн - 2500 руб.</p>
+                        <p>до 2 тонн - 3500 руб.</p>
+                        <p>до 3 тонн - 4000 руб.</p>
+                        <p>до 5 тонн - 9000 руб.</p>
+                        <p>до 8 тонн - 11000 руб.</p>
+                        <p>до 20 тонн - 18000 руб.</p>
+                    </div>
+                    <div class="inf1">
+                        <p>Компания Гермес осуществляет доставку материалов 7 дней в неделю по всей территории Российской Федерации. </p>
+                    </div>
+                </div>
+                <div class="voprosi">
+                    <h1>Частые вопросы</h1>
+                    <div class="vopr">
+                        <div class="vp">
+                            <ul class="navbar">
+                                <li><a href="#">Как я могу оплатить товары? <img src="images/footer-next.svg" alt="f"></a><ul>
+                                    <li><a href="#">Компания Гермес осуществляет доставку материалов 7 дней в неделю по всей территории Российской Федерации.</a></li>
+                                </ul></li>
+                            </ul>
+                        </div>
+                        <div class="vp">
+                            <ul class="navbar">
+                                <li><a href="#">Как получить бесплатную доставку? <img src="images/footer-next.svg" alt="f"></a><ul>
+                                    <li><a href="#">Компания Гермес осуществляет доставку материалов 7 дней в неделю по всей территории Российской Федерации.</a></li>
+                                </ul></li>
+                            </ul>
+                        </div>
+                        <div class="vp">
+                            <ul class="navbar">
+                                <li><a href="#">Как получить бесплатную доставку? <img src="images/footer-next.svg" alt="f"></a><ul>
+                                    <li><a href="#">Компания Гермес осуществляет доставку материалов 7 дней в неделю по всей территории Российской Федерации.</a></li>
+                                </ul></li>
+                            </ul>
+                        </div>
+                        <div class="vp">
+                            <ul class="navbar">
+                                <li><a href="#">Как получить бесплатную доставку? <img src="images/footer-next.svg" alt="f"></a><ul>
+                                    <li><a href="#">Компания Гермес осуществляет доставку материалов 7 дней в неделю по всей территории Российской Федерации.</a></li>
+                                </ul></li>
+                            </ul>
+                        </div>
+                        <div class="vp">
+                            <ul class="navbar">
+                                <li><a href="#">Как получить бесплатную доставку? <img src="images/footer-next.svg" alt="f"></a><ul>
+                                    <li><a href="#">Компания Гермес осуществляет доставку материалов 7 дней в неделю по всей территории Российской Федерации.</a></li>
+                                </ul></li>
+                            </ul>
+                        </div>
+                        <div class="vp">
+                            <ul class="navbar">
+                                <li><a href="#">Как получить бесплатную доставку? <img src="images/footer-next.svg" alt="f"></a><ul>
+                                    <li><a href="#">Компания Гермес осуществляет доставку материалов 7 дней в неделю по всей территории Российской Федерации.</a></li>
+                                </ul></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            const togglebtn = document.querySelector('.toggle_btn')
+            const togglebtnIcon = document.querySelector('.toggle_btn i')
+            const dropDownMenu = document.querySelector('.dropdown_menu')
+    
+            togglebtn.onclick = function () {
+                dropDownMenu.classList.toggle('open')
+                const isOpen = dropDownMenu.classList.contains('open')
+                togglebtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+            }
+        </script>
+        <script src="js/script.js"></script>
+    </main>
+    <footer class="footer1">
+        <div class="footer__inner">
+            <div class="container">
+                <div class="footer__column">
+                    <div class="footer__text">
+                        <img src="images/logo.svg" class="logo" alt="logo" width="273px">
+                    </div>
+                    <div class="footer__text">
+                        <div class="icon">
+                            <img src="images/geo.svg" alt="geo">
+                            <h4 class="footer__titel">Казань</h4>
+                        </div>
+                        <p class="footer__descr"><span> ул.Сары Садыковой 30, 2 этаж </span></p>
+                        <p class="footer__descr">Пн - Пт c 8:30 до 17:30 </p>
+                        <p class="footer__descr">Суббота с 9:00 до 14:00</p>
+                    </div>
+                    <div class="footer__text">
+                        <div class="icon">
+                            <img src="images/telephone.svg" alt="th">
+                            <h4 class="footer__subtitel">8 (843) 203-93-43</h4>
+                        </div>
+                        <a class="footer__link"><span>info@td-germes.ru</span></a>
+                        <div class="social">
+                            <a class="footer__link"><img src="images/watpp.svg" alt="Связаться на ватсапп"></a>
+                            <a class="footer__link"><img src="images/tg.svg" alt="Связаться в Телеграмм"></a>
+                        </div>
+                    </div>
+                    <div class="footer__btn">
+                        <div class="footer__btn__inner">
+                            <button class="footer__btn__text btn"><a href="tovar.html">Оптовый заказ</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="uslugi">
+                    <nav class="footer__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">О компании</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Доставка</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="buy.html">Оплата</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="states.html">Статьи</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="vakansii.html">Вакансии</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="nevidno1">
+                    <div class="number-email">
+                        <p>8 (843) 203-93-43</p><p>info@td-germes.ru</p>
+                    </div>
+                    <div class="geopoz">
+                        <img src="images/geo.svg" alt="geo">
+                        <p><b>Казань</b></p>
+                        <p>ул.Сары Садыковой 30, 2 этаж</p>
+                    </div>
+                    <div class="whatsapp">
+                        <a class="footer__link"><img src="images/watpp.svg" alt="Связаться на ватсапп"></a>
+                        <p>- задайте вопрос</p>
+                    </div>
+                    <div class="bt">
+                        <img src="images/phone.jpg" alt="bt">Заказать обратный звонок
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="copytight__text1">
+                        <p class="copyright__descr">© 2012 — 2020, ООО «ТК «Гермес» <br>
+                            Сайт www.td-germes.ru носит исключительно информационный характер и ни при каких условиях не
+                            является публичной офертой. <br>
+                            Для получения информации о стоимости товаров, пожалуйста, обращайтесь в отдел продаж
+                            компании Гермес.</p>
+                    </div>
+                    <div class="copyright__price">
+                        <a class="copyright__link" href="#"><img src="images/visa.svg" alt="Виза"></a>
+                        <a class="copyright__link" href="#"><img src="images/ms.svg" alt="Мастеркард"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
