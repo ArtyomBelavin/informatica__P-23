@@ -1,0 +1,408 @@
+.sale {
+    background-color: #D41A36;
+}
+
+.sale__text {
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sale__descr {
+    color: #fff;
+    font-size: 16px;
+}
+
+.sale__btn__inner {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 9px 11px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.location {
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.location__text {
+    display: flex;
+    gap: 10px;
+}
+
+.location__descr {
+    color: #7D7D7D;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tovar__brick {
+    max-width: 678px;
+}
+
+.tovar__titel {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.lider__lider {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lider {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #D1D1D1;
+    height: 357px;
+}
+
+.lider-2__img {
+    width: 116px;
+    height: 23px;
+}
+
+.lider__lider {
+    margin-top: 21px;
+}
+
+.reset {
+    margin-top: 18px;
+}
+
+.slider__prev {
+    margin-left: 15px;
+    width: 19px;
+    height: 35px;
+}
+
+.slider__next {
+    margin-right: 30px;
+}
+
+.tovar__full {
+    display: flex;
+    gap: 23px;
+}
+
+.tovar__btn {
+    margin-top: 143px;
+}
+
+.tovar-1__img {
+    padding-bottom: 35px;
+}
+
+.tovar__brick__text {
+   padding-top: 24px;
+   padding-left: 33px;
+   border: 1px solid #D1D1D1;
+   position: relative;
+   width: 678px;
+   height: 333px;
+}
+
+.tovar__brick__descr {
+    color: #7D7D7D;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.tovar__brick__descr span {
+    color: #272727;
+}
+
+.tovar__sklad {
+    display: flex;
+    gap: 34px;
+    margin-top: 15px;
+}
+
+.tovar__sklad__descr {
+    color: #7D7D7D;
+    font-size: 14px;
+}
+
+.tovar__sklad__descr span{
+    color: #27AE60;
+    font-size: 14px;
+    border-bottom: 1px solid #27AE60;
+}
+
+.tovar__brick__price {
+    margin-top: 15px;
+}
+
+.check {
+    display: flex;
+    gap: 8px;
+}
+
+.check__descr {
+    color: #272727;
+    font-size: 14px;
+}
+
+.check__descr span{
+    color: #272727;
+    font-size: 40px;
+}
+
+.check__subdescr {
+    color: #7D7D7D;
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+
+.tovar__brick__price__inner {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.check__count__inner {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    padding-right: 8px;
+    padding-left: 7px;
+    margin-bottom: 9px;
+}
+
+.check__input {
+    max-width: 50px;
+    border: none;
+    outline: none;
+}
+
+.itogo {
+    color: #7D7D7D;
+    font-size: 17px;
+}
+
+.itogo span {
+    color: #272727;
+}
+
+.star__img__tovar {
+ position: absolute;
+ top: 20px;
+ right: 20px;
+}
+
+.tovar__brick__text__btn {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 13px;
+}
+
+.card__btn__click-1 {
+    padding: 9px 27px;
+    background-color: transparent;
+    color: #272727;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #5661CB;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.card__btn__click-2 {
+    padding: 10px 40px;
+    background-color: #5661CB;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 202px;
+}
+
+.dileveri__tovar__inner {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    padding-bottom: 23px;
+}
+
+.dileveri__tovar__path {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dileveri__tovar__descr {
+    color: #494949;
+    font-size: 14px;
+    border-bottom: 1px solid #494949;
+}
+
+.specifications {
+    margin-top: 53px;
+}
+
+.specifications__inner {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+
+.specifications__titel {
+    border-bottom: 1px solid #9FA6EE;
+    padding-bottom: 6px;
+}
+
+.specifications__text {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.specifications__component {
+    display: flex;
+    border-bottom: 1px solid #BDBDBD;
+    padding-top: 11px;
+    padding-bottom: 8px;
+}
+
+.margin-1 {
+    margin-right: 185px;
+}
+
+.margin-2 {
+    margin-right: 146px;
+}
+
+.margin-3 {
+    margin-right: 132px;
+}
+
+.margin-4 {
+    margin-right: 177px;
+}
+
+.margin-5 {
+    margin-right: 214px;
+}
+
+.margin-6 {
+    margin-right: 113px;
+}
+
+.margin-7 {
+    margin-right: 134px;
+}
+
+.margin-8 {
+    margin-right: 158px;
+}
+
+.margin-9 {
+    margin-right: 96px;
+}
+.margin-10 {
+    margin-right: 66px;
+}
+.margin-11 {
+    margin-right: 229px;
+}
+
+.br {
+    line-height: 1.6;
+}
+
+.specifications__component-1 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #BDBDBD;
+    padding-top: 18px;
+    padding-bottom: 16px;
+}
+
+.specifications__btn__inner-1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.specifications__descr-41 {
+    display: none;
+}
+
+.specifications__component-2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    line-height: 1.6;
+}
+
+.specifications__descr-1 {
+    color: #7D7D7D;
+    font-size: 16px;
+}
+
+.specifications__descr-4 {
+    color: #000;
+    font-size: 16px;
+}
+
+.specifications__descr-1 span{
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+.specifications__descr-3 {
+    color: #7D7D7D;
+}
+
+.tovar__full__adaptiv {
+    display: none;
+}
+.tovar__text {
+    display: none;
+}
+
+.specifications__descr-3 span{
+    color: #494949;
+    font-weight: 500;
+}
+
+.look {
+    margin-top: 64px;
+}
+
+.look__titel {
+    margin-bottom: 42px;
+    color: #272727;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.recommended {
+    margin-top: 49px;
+    margin-bottom: 77px;
+}
+
+.specifications__btn {
+    display: none;
+}
